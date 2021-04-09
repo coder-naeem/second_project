@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar Style */
+.nav_bar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid black;
+    align-items: center;
+    padding: 16px;
+}
+.nav_start {
+    margin: 0 0 0 90px;
+}
+.nav_start a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 35px;
+    font-family: var(--font3);
+}
+.nav_middle {
+    margin: 0 90px 0 0;
+}
+.nav_middle ul {
+    display: flex;
+    list-style-type: none;
+}
+.nav_middle ul li {
+    padding: 0 10px;
+}
+.nav_middle ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    font-family: var(--font1);
+}
+.nav_middle ul li a:hover {
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+/* Main Section */
+.main {
+    display: flex;
+    justify-content:space-between;
+}
+.left {
+    padding: 10px;
+    width: 20%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+    top: 0;
+    left:0;
+    background-color: red;
+}
+.center {
+    overflow-y: scroll;
+    top: 0;
+    padding: 10px;
+    right: 80%;
+    width: 50%;
+    height: 100vh;
+}
+.right {
+    padding: 10px;
+    width: 20%;
+    top: 0;
+    right: 0;
+    overflow-y: scroll;
+    height: 100vh;
+    background-color: green;
+}
+.main {
+    top: 200px;
+}
+.center::-webkit-scrollbar{
+    display: none;
+ }
+ .container {
+     display: flex;
+ }
+
+ .center .content {
+     width: 100%;
+     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+     padding: 10px;
+     height: 300px; 
+     background-color: white;
+     margin-top: 30px;
+ }
+ .center .content ul {
+     list-style-type: none;
+ }
+ .center .content a {
+     text-decoration: none;
+     color: black;
+     line-height: 40px;
+ }
+ .center .content a:hover {
+     color: red;
+ }
+ .main {
+     margin-top: 76px;
+ }
+ body {
+     background-color: #e6e6e6;
+ }
